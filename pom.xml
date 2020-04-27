@@ -81,13 +81,13 @@
             <resource>
                 <directory>src/main/resources</directory>
                 <excludes>
-                    <exclude>application*.properties</exclude>
+                    <exclude>application*.yml</exclude>
                 </excludes>
             </resource>
             <resource>
                 <directory>src/main/resources</directory>
                 <includes>
-                    <include>application.properties</include>
+                    <include>application.yml</include>
                     <include>application-${env.name}.yml</include>
                 </includes>
                 <filtering>true</filtering>
