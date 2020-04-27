@@ -13,7 +13,7 @@ import java.util.Map;
 @RequestMapping("/test")
 public class TestController {
 
-    @Value("tadabase.url")
+    @Value("${tadabase.url}")
     private String evn;
 
 
