@@ -1,3 +1,2 @@
-inf:
-  uuu:
-    ds: 10
+server:
+  port: 8081
